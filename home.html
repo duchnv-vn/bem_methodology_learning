@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BEM methodology learning</title>
+  <link rel="stylesheet" href="/css/home.css" />
+</head>
+
+<body>
+  <main>
+    <header class="header">
+      <div class="logo header__logo">
+        <figure class="logo__figure">
+          <img class="logo__image" src="logo.png" alt="Brand logo">
+          <figcaption class="logo__brand-name">Brand logo</figcaption>
+        </figure>
+      </div>
+      <nav class="navigation header__navigation">
+        <ul>
+          <li>
+            <a class="navigation__item" href="/home">Home</a>
+          </li>
+          <li>
+            <a class="navigation__item" href="/about-us">About us</a>
+          </li>
+          <li>
+            <a class="navigation__item" href="/products">Products</a>
+          </li>
+          <li>
+            <a class="navigation__item" href="/contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="body">
+      <section class="articles">
+        <h1 class="articles__heading">Article collection</h1>
+        <ul class="articles__list">
+          <li>
+            <article class="article">
+              <details class="article__content">
+                <summary class="article__title">Article 1</summary>
+                <time class="article__created-date" datetime="2023-10-08">October 8<sup>th</sup>, 2023</time>
+                <p class="article__description">Here is some <mark>highlighted</mark> text of description of article 1.
+                </p>
+              </details>
+            </article>
+          </li>
+        </ul>
+      </section>
+
+      <section class="photos">
+        <h1 class="photos__heading">Photo collection</h1>
+        <ul class="photos__list">
+          <li>
+            <figure class="photo">
+              <img class="photo__image" src="#" alt="Image 1">
+              <figcaption class="photo__title">Photo 1 title</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
+      <section class="subscription">
+        <h1 class="subscription__heading">Supcription form</h1>
+        <form class="subscription__form">
+          <input class="subscription__email-input" name="email" />
+          <button class="subscription__submit-button subscription__submit-button_disabled">Subcribe</button>
+        </form>
+      </section>
+    </div>
+    <footer class="footer">
+      <section class="navigation footer__navigation">
+        <nav>
+          <ul>
+            <li></li>
+          </ul>
+        </nav>
+
+        <nav>
+          <ul>
+            <li></li>
+          </ul>
+        </nav>
+
+        <nav>
+          <ul>
+            <li></li>
+          </ul>
+        </nav>
+      </section>
+    </footer>
+  </main>
+  <aside class="advertisement"></aside>
+</body>
+
+</html>

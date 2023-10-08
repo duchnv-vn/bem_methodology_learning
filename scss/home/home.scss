@@ -1,0 +1,68 @@
+.header {
+  &__navigation {
+  }
+}
+
+.logo {
+  &__figure {
+  }
+
+  &__image {
+    width: 100%;
+    aspect-ratio: 1/1;
+  }
+
+  &__brand-name {
+    font-size: 16px;
+  }
+}
+
+.navigation {
+  &__item {
+  }
+}
+
+.articles {
+  .article {
+    &__content {
+    }
+
+    &__title {
+    }
+
+    &__created-date {
+    }
+
+    &__description {
+    }
+  }
+}
+
+.photos {
+  .photo {
+    &__image {
+    }
+
+    &__title {
+    }
+  }
+}
+
+.subscription {
+  &__form {
+  }
+
+  &__email-input {
+  }
+
+  &__submit-button {
+    &_disabled {
+      cursor: not-allowed;
+    }
+  }
+}
+
+.footer {
+  &__navigation {
+  }
+}

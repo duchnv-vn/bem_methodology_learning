@@ -1,0 +1,13 @@
+.logo__image {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.logo__brand-name {
+  font-size: 16px;
+}
+
+.supcription__submit-button_disabled {
+  cursor: not-allowed;
+}
+/*# sourceMappingURL=index.css.map */
